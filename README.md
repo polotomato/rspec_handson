@@ -81,7 +81,7 @@ gem 'rails', '6.1.4'
 ```
 
 ***
-## Docker環境化でrails new
+## Docker 環境下で rails new
 ```sh
 % docker-compose run app rails new . -f -d mysql
 ```
