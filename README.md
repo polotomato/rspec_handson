@@ -119,7 +119,7 @@ default: &default
 ***
 ## データベース作成
 ```sh
-docker-compose run app rails db:create
+% docker-compose run app rails db:create
 ```
 
 ***
@@ -130,5 +130,5 @@ http://localhost:3000
 ***
 ## 一旦コンテナを停止
 ```sh
-% docker-compose down
+% docker-compose stop
 ```
